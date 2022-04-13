@@ -8,4 +8,6 @@
 
 // None of the arrays will be empty, so you don't have to worry about that!
 
-const removeEveryOther = array => array.filter((_, i) => i % 2 === 0)
+function removeEveryOther(array){
+    return array.filter((_, i) => i % 2 === 0);
+}
